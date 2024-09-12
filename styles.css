@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#animalContainer {
+    display: flex;
+    flex-direction: column; /* Állítsa be függőleges irányba */
+    gap: 1rem; /* Távolság a téglalapok között */
+    width: 300px; /* Téglalapok szélessége */
+}
+
+#animalContainer div {
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid #00f; /* Kék körvonal */
+    border-radius: 15px; /* Lekerekített sarkak */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Téglalapok szélessége a container szélességére állítva */
+    min-height: 80px; /* Minimális magasság a téglalapoknak */
+}
